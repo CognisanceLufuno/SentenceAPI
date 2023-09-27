@@ -1,0 +1,89 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Sentence.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Sentence.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sentence.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Sentence.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Sentence/Sentence.Domain.csproj",
+      "msbuildProject": "../Sentence/Sentence.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Sentence.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/lufunomulaudzi/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/lufunomulaudzi/Documents/Repos/SentenceAPI/Sentence.Application/Sentence.Application.csproj",
+      "projectName": "Sentence.Application",
+      "projectPath": "/Users/lufunomulaudzi/Documents/Repos/SentenceAPI/Sentence.Application/Sentence.Application.csproj",
+      "packagesPath": "/Users/lufunomulaudzi/.nuget/packages/",
+      "outputPath": "/Users/lufunomulaudzi/Documents/Repos/SentenceAPI/Sentence.Application/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/lufunomulaudzi/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "/Users/lufunomulaudzi/Documents/Repos/SentenceAPI/Sentence/Sentence.Domain.csproj": {
+              "projectPath": "/Users/lufunomulaudzi/Documents/Repos/SentenceAPI/Sentence/Sentence.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.308/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
